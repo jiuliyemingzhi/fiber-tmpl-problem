@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{.Title}}</title>
+
+<!--    <link rel="stylesheet" type="text/css" href="all.min.css">-->
+    {{block "page-css" .}}{{end}}
+</head>
+
+<body>
+
+{{block "main" .}}{{end}}
+
+<!--<script src="assets/js/all.min.js"></script>-->
+{{block "page-js" .}}{{end}}
+</body>
+</html>
